@@ -56,7 +56,7 @@ def setrock(rock):
         global rock_mode
         rock_mode = rock
     else:
-        print("An invalid rock-mode ({}) was passed to setrock(). Use one of the following: ROCK64, ROCKPRO64").format(mode)
+        print("An invalid rock-mode ({}) was passed to setrock(). Use one of the following: ROCK64, ROCKPRO64").format(rock)
 		
 def getmode():
     if gpio_mode in ['ROCK','BOARD','BCM']:
