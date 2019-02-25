@@ -363,6 +363,7 @@ class PWM:
             print("frequency must be greater than 0.0")
             return
         self.freq = frequency
+        print("frequency {}".format(self.freq))
         self.gpio = channel_int
         self.state = 0
         return
